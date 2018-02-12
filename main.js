@@ -1,3 +1,6 @@
+// prompts for user name, later used in congratulate alerts see edited alerts ${user} below
+// this is outside of the function so that it is only called when the page is loaded/refreshed
+var user = prompt("Please enter your name");
 
 function playGame() {
   // prompts the user for a choice and stores it as userChoice variable
@@ -25,7 +28,7 @@ function playGame() {
     if (computerChoice === "paper") {
       window.alert(`${computerChoice} vs ${userChoice}, Computer WINS!!!`)
     } else {
-      window.alert(`${computerChoice} vs ${userChoice}, User WINS!!!`)
+      window.alert(`${computerChoice} vs ${userChoice}, ${user} WINS!!!`)
     }
   }
 
@@ -34,7 +37,7 @@ function playGame() {
     if (computerChoice === "scissors") {
       window.alert(`${computerChoice} vs ${userChoice}, Computer WINS!!!`)
     } else {
-      window.alert(`${computerChoice} vs ${userChoice}, User WINS!!!`)
+      window.alert(`${computerChoice} vs ${userChoice}, ${user} WINS!!!`)
     }
   }
 
@@ -43,7 +46,7 @@ function playGame() {
     if (computerChoice === "rock") {
       window.alert(`${computerChoice} vs ${userChoice}, Computer WINS!!!`)
     } else {
-      window.alert(`${computerChoice} vs ${userChoice}, User WINS!!!`)
+      window.alert(`${computerChoice} vs ${userChoice}, ${user} WINS!!!`)
     }
   }
 }
