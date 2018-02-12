@@ -2,10 +2,7 @@
 // this is outside of the function so that it is only called when the page is loaded/refreshed
 var user = prompt("Please enter your name");
 
-function playGame() {
-  // prompts the user for a choice and stores it as userChoice variable
-  var userChoice = prompt("Please choose rock, paper, or scissors");
-
+function playGame(userChoice) {
   // created a random number between 0-1 and stores it as computerChoice variable
   var computerChoice = Math.random();
 
