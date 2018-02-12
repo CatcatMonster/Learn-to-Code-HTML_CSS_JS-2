@@ -176,12 +176,12 @@ _Is there any other way to do this?_
 
 Time for us to make our *Rock, Paper, Scissors* application!
 
-1. Go to: https://github.com/GalvanizeOpenSource/Learn-To-Code-JavaScript/
+1. Go to: https://github.com/Doubleshot1122/Learn-to-Code-HTML_CSS_JS-2
 2. Download the zip file of our code
 3. Open the files in your text editor
-	4. index.html
-	5. CSS/style.css
-6. Open the index.html file in your web browser
+	* index.html
+	* main.js
+4. Open the index.html file in your web browser
 
 #### 4 Steps To Building This App
 
@@ -201,8 +201,6 @@ var userChoice = prompt("Do you choose rock, paper or scissors?");
 ```
 
 This line creates a variable called ```userChoice``` to represent the users response.
-
-Question: _Why is this a terrible way to get user input?_
 
 
 ###### 2. Get the computer's choice
@@ -244,11 +242,6 @@ if (computerChoice <= 0.33) {
 
 At this point the computer is ready to rumble with it's choice, and the user has made theirs.
 
-**IT'S GO TIME!!! (Not so fast, bub.)**
-First we need to tell the computer how to decide who wins.
-In order to do that, we're going to need to create a function!
-
-
 ###### 4. Compare the choices and tell the user of the result.
 Here we're creating a function called ```compare```. The ```compare``` function takes two
 arguments ```choice1``` and ```choice2```.
@@ -286,44 +279,41 @@ We're passing values of userChoice and computerChoice to run the equation.
 The function is called when someone clicks the button via the ```onclick``` attribute!
 
 ```html
-<button class="button" onclick="compare(userChoice, computerChoice);">LETS PLAY RPS!</button>
+<button onclick="compare(userChoice, computerChoice);">LETS PLAY RPS!</button>
 ```
 
 ### Play around in the sandbox some more!
 
-- "I want to play the game again. Make a button I can press to play again!"
-- "When I win, I want the game to congratulate me by my name!"
-- "I don't ever want to lose. Make it so I always win."
-- "I want the JavaScript code to work on other HTML files. How do I do this?"
+- "How can you play again without refreshing the page?"
+- "How can I make this congratulate me by name?"
+- "How could I play this against another person?"
+- "How could I choose R, P, or S without an alert box?"
+- "How want to keep track of the wins and loses?"
 
 
 ## YOU DID IT, YOU'RE NOW A JAVASCRIPT CODER!
 
-Want to learn more? Visit one of our nearby **Learn to Code** sessions or check out our other tutorials:
+# Additional Training:
+## Pay in person training at host location:
++ [<b>Galvanize</b> - Web Development Immersive](https://www.galvanize.com/seattle/web-development)
++ [<b>Galvanize</b> - Web Development Evenings](https://www.galvanize.com/seattle/web-development-101)
++ [<b>Galvanize</b> - Intro to Web Development Evenings](https://www.galvanize.com/seattle/web-development-foundations)
 
-- [Learn to Code HTML & CSS](https://github.com/GalvanizeOpenSource/Learn-To-Code-HTML-CSS)
-- [Learn to Code Git and GitHub](https://github.com/GalvanizeOpenSource/Learn-To-Code-GitHub-Git)
+## Pay online training:
++ [<b>Udemy</b> - wait for 9.99$ sales](www.udemy.com)
++ [<b>Treehouse</b> - 25$ - 49$ per month](https://teamtreehouse.com)
++ [<b>Lynda.com</b> - 20$ - 30$ per month](https://www.lynda.com)
 
-You can also check out our evening courses at [galvanize.com/workshops](http://galvanize.com/workshops):
+## Free online training:
++ [<b>Lynda.com</b> - with King Co library card](https://www.lynda.com/)
++ [<b>Coursera</b>](https://www.coursera.org/)
++ [<b>Khan Academy</b>](https://www.khanacademy.org)
++ [<b>Code Academy</b>](https://www.codecademy.com)
 
-- **Zero to Web Designer in 8 Weeks**
-- **Foundations in JavaScript in 8 Weeks**
+## Free Resources:
++ [<b>Mozilla developer docs</b>](https://developer.mozilla.org)
++ [<b>w3schools</b>](https://www.w3schools.com)
 
-If you're ready for a full-fledged immersive program, Galvanize offers the following:
+***
 
-**Galvanize Full Stack Immersive Program**
-- 24 Week Full-Time Program
-- 97% Job Placement Rate within six months
-- Average starting salary: $77,000 per annum
-- Scholarships available for those who qualify
-
-To learn more, email our enrollment department at enrollment@galvanize.com.
-
-
-## About the Authors
-
-**Graham McBain** is an alum of the 3rd cohort of the Galvanzie Web Development Program. He previously served as Evangelist for Galvanize based in the Colorado area. Graham believes that programming is more accessible than people think and is passionate about showing people the path to becoming a developer.
-
-**Lee Ngo** is an evangelist for Galvanize based in Seattle. Previously he worked for UP Global (now Techstars) and founded his own ed-tech company in Pittsburgh, PA. Lee believes in learning by doing, engaging and sharing, and he teaches code through a combination of visual communication, teamwork, and project-oriented learning.
-
-You can email him at lee.ngo@galvanize.com for any further questions.
+Thanks for attending.
