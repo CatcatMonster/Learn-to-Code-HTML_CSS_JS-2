@@ -1,0 +1,6 @@
+/* Styles the Play! button */
+button {
+  background-color: green;
+  font-size: 18px;
+  padding: 10px;
+}

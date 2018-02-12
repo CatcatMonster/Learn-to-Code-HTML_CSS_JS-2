@@ -284,7 +284,6 @@ The function is called when someone clicks the button via the ```onclick``` attr
 
 ### Play around in the sandbox some more!
 
-- "How can you play again without refreshing the page?"
 - "How can I make this congratulate me by name?"
 - "How could I play this against another person?"
 - "How could I choose R, P, or S without an alert box?"
