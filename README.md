@@ -79,7 +79,7 @@ What is the value of `total`?
 What's the difference between `=`,`==`, and `===`? I see this all the time.
 
 
-#####`=` is known as the  **assignment operator**
+##### `=` is known as the  **assignment operator**
 It sets variables equal to a specific value.
 ```javascript
 var foo = 1
